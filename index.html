@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body class="">
+    
+    <main>
+        <header class="bg-white sticky top-0 z-50 p-4 border-b lg:flex lg:justify-between">
+            <div class=" flex justify-between items-center">
+                <div>
+                    <div>
+                        <a href="./index.html"><img src="./img/sb.png" width="80" alt=""></a>
+                    </div>
+                </div>
+                <button id="btn-menu" class="duration-300 lg:hidden">
+                    <span class="block h-1 bg-blue-800 w-8 rounded-full  duration-300" id="bar-1"></span>
+                    <span class="block h-1 bg-blue-800 w-8 rounded-full mt-1 duration-300" id="bar-2"></span>
+                    <span class="block h-1 bg-blue-800 w-8 rounded-full mt-1 duration-300" id="bar-3"></span>
+                </button>
+            </div>
+            <nav class="bg-white h-0 overflow-hidden duration-300 lg:h-10 " id="navbar">
+                <ul class="p-4 text-lg text-gray-500 font-semibold mt-5 lg:flex lg:mt-0 lg:p-0 lg:items-center  ">
+                    <li><a href="./index.html" class="text-blue-800 hover:text-blue-800 duration-300">Acceuil</a></li>
+                    <li><a href="#about" class="mt-2  lg:ml-5 hover:text-blue-800 duration-300">A propos</a></li>
+                    <li><a href="#service" class="mt-2 lg:ml-5 hover:text-blue-800 duration-300">Services</a></li>
+                    <li><a href="#formation" class="mt-2 lg:ml-5 hover:text-blue-800 duration-300">Formation</a></li>
+                    <li><a href="#team" class="mt-2 lg:ml-5 hover:text-blue-800 duration-300">Equipe</a></li>
+                    <li><a href="#contact" class="mt-2 lg:ml-5 hover:text-blue-800 duration-300">Contact</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        <section class="h-[89vh] bg-[url('./img/im-6.jpg')] bg-cover w-[100%] ">
+            <div class="h-[89vh] w-[100%] bg-white/90 relative">
+                <div class="h-full  w-full lg:flex lg:items-center lg:justify-center lg:mt-0">
+                    
+                    <div data-aos="fade-up" class=" p-4 w-full lg:w-[50%] lg:p-10 ">
+                        <h1 class="text-5xl text-blue-800 text-center font-semibold md:text-center">La technologie <br> au service de <span class="font-bold bg-gradient-to-r from-blue-800 to-blue-400 text-transparent bg-clip-text">l'humain</span></h1>
+                        <p class="text-gray-600 mt-5 text-center md:w-[95%] md:text-center">Skills Boost Tech en français [Renforcement des compétences Technologiques] c'est une entreprise specialisée dans la formation technologique</p>
+                        <div class="flex mt-5 justify-center">
+                            <a href="" class="bg-blue-800 text-white p-3 px-5 rounded-xl block text-center shadow-lg hover:bg-blue-700 duration-300">Nous contacter</a>
+                            <a href="" class="bg-blue-200 text-blue-800 p-3 px-5 ml-5 rounded-xl block text-center shadow-lg hover:bg-blue-300 duration-300">En savoir plus</a>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" class="p-4 mt-5 relative md:flex md:justify-center lg:w-[40%] lg:p-10">
+                        <img src="./img/im-7.jpg" class="rounded-3xl  shadow-md md:w-[600px] lg:w-[600px]" alt="">
+                        <span class="absolute left-0 top-0 h-10 w-16 rounded-xl bg-blue-800/70 text-white flex items-center justify-center"><i class='bx bx-code-alt'></i></span>
+                        <span class="absolute right-0 -top-7  h-10 w-16 rounded-xl bg-blue-300/70 text-white flex items-center justify-center"><i class='bx bx-line-chart' ></i></span>
+                        <span class="absolute -left-4 top-40 h-10 w-16 rounded-xl bg-blue-500/70 text-white flex items-center justify-center"><i class='bx bx-wifi-2'></i></span>
+                        <span class="absolute right-0 top-40 h-10 w-16 rounded-xl bg-orange-800/70 text-white flex items-center justify-center"><i class='bx bxs-pen'></i></i></span>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+
+        <section data-aos="fade-up" class="lg:h-[100vh]" id="about">
+            <div class="p-4">
+                <div class="mt-10 relative flex flex-col items-center">
+                    <div class="h-14 w-14 bg-blue-200 rounded-full flex justify-center items-center text-2xl"> <i class='bx bx-briefcase text-blue-800'></i></div>
+                    <h1 class="text-center text-blue-800 text-2xl font-semibold mt-2">Qui sommes-nous ?</h1>
+                </div>
+
+                <div class="p-4 mt-5 md:flex md:items-center md:justify-between">
+                    <div class="md:w-[45%]">
+                        <img src="./img/ul-1.png" data-aos="zoom-in" class="rounded-xl shadow-md border" alt="">
+                        
+                    </div>
+                    <div class="mt-5 md:w-[50%]">
+                        <p class="text-blue-800 text-center font-semibold" data-aos="zoom-in">Nous vous formons à être compétent dans l'usage de l'outil informatique</p>
+                        <p class="mt-5 text-blue-950 text-justify" data-aos="zoom-in">
+                            Nous sommes une entreprise spécialisé dans la formation technologique 
+                            en RDC et partout en Afrique. Actuellement nous sommes basé en RDC plus précisement dans la ville de Lubumbashi
+                            Mais nous visons l'expension dans les années qui  suivent. Nous vous rendons compétents au vue de vous 
+                            rendre compétitif sur le marché du travail afin d'user de toutes vos 
+                            capacité pour resoudre des problèmes réels dans la société.
+                        </p>
+                        <p class="text-blue-800 text-center font-semibold mt-5" data-aos="zoom-in">Notre Devise</p>
+                        <p class="mt-5 text-blue-950 font-bold text-center" data-aos="zoom-in">Compétence-Conscience-Innovation </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section data-aos="fade-up" class="p-4 bg-gray-100 lg:h-[100vh]" id="service">
+            <div class="mt-5 relative flex flex-col items-center lg:mt-12">
+                <div class="h-14 w-14 bg-blue-300 rounded-full flex justify-center items-center text-2xl"> <i class='bx bxl-sketch text-blue-800'></i></div>
+                <h1 class="text-center text-blue-800 text-2xl font-semibold mt-2">Nos Services</h1>
+                <p class="text-gray-500">Decouvrez nos services innovants</p>
+            </div>
+
+            <div class="mt-10">
+                <div class="md:flex md:justify-center">
+                    <div data-aos="zoom-in-down" class="border shadow-md bg-white p-6 rounded-xl flex flex-col justify-center items-center hover:bg-blue-500/40 duration-300 object-contain md:w-[30%]">
+                        <div class="h-16 w-16 bg-blue-300/50 shadow-md rounded-full flex justify-center items-center text-3xl"><i class='bx bx-book-bookmark text-blue-800'></i></div>
+                        <h1 class="font-semibold text-blue-800 text-2xl mt-3 text-center">Formation Tech</h1>
+                        <p class="text-center mt-3 text-gray-500">Nous metons à votre disposition nos différentes formations</p>
+                        <a href="" class="bg-blue-800 text-white p-2 rounded-lg shadow-md block mt-3">Voir nos formations</a>
+                    </div>
+
+                    <div data-aos="zoom-in-down" class="border shadow-md mt-5 bg-white p-6  rounded-xl flex flex-col justify-center items-center hover:bg-blue-500/40 duration-300 object-contain md:w-[30%]  md:ml-5 md:mt-0">
+                        <div class="h-16 w-16 bg-blue-300/50 shadow-md rounded-full flex justify-center items-center text-3xl"><i class='bx bx-user-check  text-blue-800'></i></div>
+                        <h1 class="font-semibold text-blue-800 text-2xl mt-3 text-center">Placement Agent</h1>
+                        <p class="text-center mt-3 text-gray-500">Nous plaçons en entreprise des personnes compétentes</p>
+                        <a href="" class="bg-blue-800 text-white p-2 rounded-lg shadow-md block mt-3">en savoir  plus</a>
+                    </div>
+
+                    
+                    <div data-aos="zoom-in-down" class="border shadow-md mt-5 bg-white p-6  rounded-xl flex flex-col justify-center items-center hover:bg-blue-500/40 duration-300 object-contain md:w-[30%]  md:ml-5 md:mt-0">
+                        <div class="h-16 w-16 bg-blue-300/50 shadow-md rounded-full flex justify-center items-center text-3xl"> <i class='bx bx-category-alt text-blue-800'></i></div>
+                           <h1 class="font-semibold text-blue-800 text-2xl mt-3 text-center">Solutions tech</h1>
+                           <p class="text-center mt-3 text-gray-500">Des solutions informatiques repondant à vos besoins</p>
+                           <a href="" class="bg-blue-800 text-white p-2 rounded-lg shadow-md block mt-3">en savoir plus</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+
+        <section data-aos="fade-up" class="p-4" id="formation">
+            <div class="mt-5 relative flex flex-col items-center">
+                <div class="flex items-center">
+                    <h1 class="text-center text-blue-800 text-2xl font-semibold ml-3">Nous vous Formons aux compétences Tech</h1>
+                </div>
+                <p class="text-gray-500">Decouvrez nos Formations</p>
+            </div>
+
+           <div class="md:flex md:justify-between md:items-center md:p-6">
+                <div class="mt-5 md:w-[45%]">
+                    <p data-aos="flip-left" class="bg-white mt-3 p-3 text-blue-900 shadow-sm border font-semibold rounded-xl flex items-center">
+                        <span class="h-5 w-5  rounded-full text-xl text-blue-300 flex justify-center items-center"><i class='bx bx-code-alt'></i></span></span><span class="ml-1">Developpement Web</span></p>
+                    <p data-aos="flip-left" class="bg-white mt-3 p-3 text-blue-900 shadow-sm border font-semibold rounded-xl flex items-center">
+                        <span class="h-5 w-5  rounded-full text-xl text-blue-400 flex justify-center items-center"><i class='bx bx-code-curly'></i></span></span><span class="ml-1">Developpement Mobile</span></p>
+                    <p data-aos="flip-left" class="bg-white mt-3 p-3 text-blue-900 shadow-sm border font-semibold rounded-xl flex items-center">
+                        <span class="h-5 w-5 rounded-full text-xl text-blue-500 flex justify-center items-center"><i class='bx bx-line-chart' ></i></span></span><span class="ml-1">Analyse des données</span></p>
+                    <p data-aos="flip-left" class="bg-white mt-3 p-3 text-blue-900 shadow-sm border font-semibold rounded-xl flex items-center">
+                        <span class="h-5 w-5 rounded-full text-xl text-blue-600 flex justify-center items-center"><i class='bx bx-store'></i></span></span><span class="ml-1">Marketing Digital</span></p>
+                    <p data-aos="flip-left" class="bg-white mt-3 p-3 text-blue-900 shadow-sm border font-semibold rounded-xl flex items-center">
+                        <span class="h-5 w-5 rounded-full text-xl text-blue-700 flex justify-center items-center"><i class='bx bx-wifi-2'></i></span></span><span class="ml-1">Reseaux et Cybersecurité</span></p>
+                    <p data-aos="flip-left" class="bg-white mt-3 p-3 text-blue-900 shadow-sm border font-semibold rounded-xl flex items-center">
+                        <span class="h-5 w-5 rounded-full text-xl text-blue-800 flex justify-center items-center"><i class='bx bxs-pen'></i></span></span><span class="ml-1">Design & Multimedia</span></p>
+                    <p data-aos="flip-left" class="bg-white mt-3 p-3 text-blue-900 shadow-sm border font-semibold rounded-xl flex items-center">
+                        <span class="h-5 w-5 rounded-full text-xl text-blue-900 flex justify-center items-center"><i class='bx bx-news'></i></span></span><span class="ml-1">Community Management</span></p>
+                </div>
+
+                <div class="mt-5 md:w-[45%] md:ml-5">
+                    <img data-aos="flip-right" src="./img/ul-2.png" class="rounded-xl shadow-md border" alt="">
+                    <p data-aos="flip-right" class="mt-5 font-bold text-lg text-blue-900 text-center">Toutes nos formations sont 100% Certifiantes</p>
+                </div>
+           </div>
+        </section>
+
+        <section data-aos="fade-up" id="team" class="p-4 bg-gray-50 border-t">
+            <div class="">
+                <div data-aos="zoom-in-down" class="mt-10 relative flex flex-col items-center">
+                    <div class="h-14 w-14 bg-blue-300 rounded-full flex justify-center items-center text-2xl text-blue-800"><i class='bx bxl-microsoft-teams'></i></div>
+                    <h1 class="text-center text-blue-800 text-2xl font-semibold mt-2">Decouvrez notre Equipe</h1>
+                </div>
+
+                <div data-aos="zoom-in-down" class="mt-10 p-4 md:flex md:justify-around">
+                    <div data-aos="zoom-in-down" class="flex justify-around items-center relative">
+                        <div class="h-28 w-28 rounded-full bg-transparent border-2 border-blue-800/40 mt-3 rotate-45">
+
+                        </div>
+                        <div class="absolute bg-[url('./img/pax.jpg')] border border-blue-800 shadow-lg bg-cover rotate-12 h-28 w-28 rounded-full left-0">
+
+                        </div>
+                        <div class="lg:ml-3">
+                            <h1 class="text-3xl font-semibold text-blue-800">Pax Mk</h1>
+                            <p>Software Engeneer</p>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-in-down" class="mt-3 flex justify-around items-center relative">
+                        <div class="h-28 w-28 rounded-full bg-transparent border-2 border-blue-800/40 mt-3 rotate-45">
+
+                        </div>
+                        <div class="absolute bg-[url('./img/like-icon.jpg')] border border-blue-800 shadow-lg bg-cover h-28 w-28 rounded-full left-0">
+
+                        </div>
+                        <div class="lg:ml-3">
+                            <h1 class="text-3xl font-semibold text-blue-800">Likeur off</h1>
+                            <p>Frontend Developer</p>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-in-down" class="mt-3 flex justify-around items-center relative">
+                        <div class="h-28 w-28 rounded-full bg-transparent border-2 border-blue-800/40 mt-3 rotate-45">
+
+                        </div>
+                        <div class="absolute bg-[url('./img/ul-2.png')] border border-blue-800 shadow-lg bg-cover h-28 w-28 rounded-full left-0">
+
+                        </div>
+                        <div class="lg:ml-3">
+                            <h1 class="text-3xl font-semibold text-blue-800">sam palasa</h1>
+                            <p>Backend Developer</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mt-5 p-4 md:flex md:justify-around">
+                    <div data-aos="zoom-in-down" class="flex justify-around items-center relative">
+                        <div class="h-28 w-28 rounded-full bg-transparent border-2 border-blue-800/40 mt-3 rotate-45">
+
+                        </div>
+                        <div class="absolute bg-[url('./img/pax.jpg')] border border-blue-800 shadow-lg bg-cover rotate-12 h-28 w-28 rounded-full left-0">
+
+                        </div>
+                        <div class="lg:ml-3">
+                            <h1 class="text-3xl font-semibold text-blue-800">Pax Mk</h1>
+                            <p>Software Engeneer</p>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-in-down" class="mt-3 flex justify-around items-center relative">
+                        <div class="h-28 w-28 rounded-full bg-transparent border-2 border-blue-800/40 mt-3 rotate-45">
+
+                        </div>
+                        <div class="absolute bg-[url('./img/like-icon.jpg')] border border-blue-800 shadow-lg bg-cover h-28 w-28 rounded-full left-0">
+
+                        </div>
+                        <div class="lg:ml-3">
+                            <h1 class="text-3xl font-semibold text-blue-800">Likeur off</h1>
+                            <p>Frontend Developer</p>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-in-down" class="mt-3 flex justify-around items-center relative">
+                        <div class="h-28 w-28 rounded-full bg-transparent border-2 border-blue-800/40 mt-3 rotate-45">
+
+                        </div>
+                        <div class="absolute bg-[url('./img/ul-2.png')] border border-blue-800 shadow-lg bg-cover h-28 w-28 rounded-full left-0">
+
+                        </div>
+                        <div class="lg:ml-3">
+                            <h1 class="text-3xl font-semibold text-blue-800">Likeur off</h1>
+                            <p>Frontend Developer</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section data-aos="fade-up" id="contact" class="p-4 border-t">
+            <div class="mt-6 relative flex flex-col items-center">
+                <div class="h-14 w-14 bg-blue-300 rounded-full flex justify-center items-center text-2xl text-blue-800"><i class='bx bxs-contact' ></i></div>
+                <h1 class="text-center text-blue-800 text-2xl font-semibold mt-2">Contactez-nous !</h1>
+                <p class="text-gray-500 text-center">Entrez en contact avec nous pour plus de precision</p>
+            </div>
+
+            <div data-aos="zoom-in-down" class="md:flex md:justify-around md:items-center">
+                <div data-aos="zoom-in-down" class="mt-5 md:w-[45%] h-80 overflow-hidden md:ml-5">
+                    <img src="./img/ul-3.png" class="rounded-xl shadow-md border md:w-[500px]" alt="">
+                </div>
+                <div class="md:w-[45%] md:p-10">
+                    <a data-aos="zoom-in-down" href="" class="border block p-3 rounded-xl shadow-md text-blue-800 font-semibold mt-3">
+                        <div  class="flex items-center">
+                            <span class="flex justify-center items-center text-3xl text-blue-800"><i class='bx bxl-whatsapp-square' ></i></span>
+                            <div class="ml-3">
+                                <h1>Whatsapp</h1>
+                                <p>
+                                    +243 973387383
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-aos="zoom-in-down" href="" class="border block p-3 rounded-xl shadow-md text-blue-800 font-semibold mt-3">
+                        <div  class="flex items-center">
+                            <span class="flex justify-center items-center text-3xl text-blue-800"><i class='bx bxl-linkedin-square' ></i></span>
+                            <div class="ml-3">
+                                <h1>LinkedIn</h1>
+                                <p>https://www.link.me/skillsboosttech</p>
+                            </div>
+                            
+                        </div>
+                    </a>
+                    <a data-aos="zoom-in-down"  href="" class="border block p-3 rounded-xl shadow-md text-blue-800 font-semibold mt-3">
+                        <div  class="flex items-center">
+                            <span class="flex justify-center items-center text-3xl text-blue-800"><i class='bx bxl-facebook-circle' ></i></span>
+                            <div class="ml-3">
+                                <h1>Facebook</h1>
+                                <p>https://www.link.me/skillsboosttech</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-aos="zoom-in-down" href="" class="border block p-3 rounded-xl shadow-md text-blue-800 font-semibold mt-3">
+                        <div  class="flex items-center">
+                            <span class="flex justify-center items-center text-3xl text-blue-800"><i class='bx bxl-youtube'></i></span>
+                            <div class="ml-3">
+                                <h1>Youtube</h1>
+                                <p>https://www.link.me/skillsboosttech</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="bg-gray-100 p-4">
+            <div class="flex flex-col items-center md:flex-row md:justify-around">
+                <h1 class="text-gray-500 font-semibold">Copyright &copy; Skills Boost Tech</h1>
+                <p class="text-gray-500 font-semibold">Designed by <a href="">Likeur off</a></p>
+                <p class="text-gray-500 font-semibold">All Right Reserved</p>
+                
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="./script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
